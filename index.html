@@ -9,7 +9,6 @@
   <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
   <!-- css files -->
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/responsive.css">
   <!-- tailwindcss & daisyui -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -32,12 +31,12 @@
       </div>
       <div class="flex gap-2 justify-center items-center">
         <img src="./assets/coin.png" alt="">
-        <h3 class="text-md font-bold"><span id="remainingBalance">9000</span> BDT</h3>
+        <h3 class="text-md font-bold"><span id="remainingBalance">5500</span> BDT</h3>
       </div>
     </nav>
 
     <div class="flex justify-center items-center gap-6 lg:mt-10 mt-6 mb-2  pb-6">
-      <button id="show-donation-cart" class="btn bg-btn-bg px-8 py-4">Donation</button>
+      <button id="show-donation-cart" class="btn bg-[#B4F461] px-8 py-4">Donation</button>
       <button id="show-history-cart" class="btn px-8 py-4">History</button>
     </div>
   </header>
@@ -46,19 +45,21 @@
     <section id="donateCartSection" class="flex flex-col gap-8">
 
       <!-- Noakhali Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
+      <div
+        class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
         <img class="lg:w-1/2" src="./assets/noakhali.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
             <!-- balance -->
-            <p><span id="totalBalanceNoakhali">5500</span> BDT</p>
+            <p><span id="totalBalanceNoakhali">0</span> BDT</p>
           </div>
           <h3 class="text-md font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
-          <p> The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation will
-            help provide essential supplies and to those affected by this disaster. Every contribution, big or small,
-            makes difference. </p>
+          <p class="text-justify"> The recent floods in Noakhali have caused significant damage to homes infrastructure.
+            Your donation will help provide essential supplies and to those affected by this disaster. Every
+            contribution, big or small, makes difference. Please join us in supporting the relief efforts and making a
+            positive impact on the lives of those in need. </p>
           <!-- input amount -->
           <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationNoakhali"
             placeholder="Write Donation Amount" required>
@@ -68,20 +69,22 @@
       </div>
 
       <!-- Feni Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
+      <div
+        class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
         <img class="lg:w-1/2" src="./assets/feni.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
             <!-- Total balance -->
-            <p><span id="totalBalanceFeni">8700</span> BDT</p>
+            <p><span id="totalBalanceFeni">600</span> BDT</p>
           </div>
           <h3 class="text-md font-bold">Donate for Flood Relief in Feni,Bangladesh</h3>
-          <p> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your
-            generous donation will help provide immediate aid, including food, clean water, and medical supplies, to
-            those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the
-            aftermath of this disaster. </p>
+          <p class="text-justify"> The recent floods in Feni have devastated local communities, leading to severe
+            disruption and loss. Your generous donation will help provide immediate aid, including food, clean water,
+            and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help
+            rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference.
+            Please consider donating today to assist those in urgent need.</p>
           <!-- input amount -->
           <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationFeni"
             placeholder="Write Donation Amount" required>
@@ -91,20 +94,23 @@
       </div>
 
       <!-- Quota Movement Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
+      <div
+        class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
         <img class="lg:w-1/2" src="./assets/quota-protest.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
             <!-- Total balance -->
-            <p><span id="totalBalanceQm">3000</span> BDT</p>
+            <p><span id="totalBalanceQm">2400</span> BDT</p>
           </div>
           <h3 class="text-md font-bold">Aid for Injured in the Quota Movement</h3>
-          <p> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals.
-            Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those
-            affected. By contributing, you help ensure that injured individuals receive the care and support they need
-            during this challenging time. </p>
+          <p class="text-justify"> The recent Quota movement has resulted in numerous injuries and significant hardship
+            for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary
+            supplies to those affected. By contributing, you help ensure that injured individuals receive the care and
+            support they need during this challenging time. Every donation plays a vital role in alleviating their
+            suffering and aiding in their recovery. Please consider making a donation to support these brave individuals
+            in their time of need. </p>
           <!-- input amount -->
           <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationQm"
             placeholder="Write Donation Amount" required>
@@ -113,13 +119,37 @@
         </div>
       </div>
     </section>
-   
-  </main>
- <Footer>
-      <div class="px-6 lg:px-32 py-4 bg-green-50 items-center flex justify-between h-16 mt-10">
-      </div>
-    </Footer>
 
+
+    <!-- Modal -->
+
+    <input type="checkbox" id="my-modal" class="modal-toggle" />
+    <div class="modal">
+      <div class="modal-box flex flex-col gap-2 justify-center items-center">
+        <h3 class="text-2xl font-bold">Congrates!</h3>
+        <img src="./assets/coin.png" alt="">
+        <p class="py-4">You Have Donated for Humankind</p>
+        <h3 class="text-xl font-bold">Successfully</h3>
+        <div class="modal-action">
+          <label for="my-modal" class="btn">Close</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="historySection" class="hidden flex flex-col gap-6"></div>
+
+
+
+
+  </main>
+  <Footer>
+    <div class="px-6 lg:px-32 py-4 bg-green-50 items-center flex justify-between h-16 mt-10">
+    </div>
+  </Footer>
+
+
+  <script src="scripts/history.js"></script>
+  <script src="scripts/donate.js"></script>
 </body>
 
 </html>
