@@ -21,9 +21,9 @@
 </head>
 
 <body>
-  <header>
+  <header class="sticky top-0 bg-white bg-opacity-90 z-50">
     <!-- navigation -->
-    <nav class="px-6 lg:px-32 py-4 bg-orange-50 flex items-center justify-between gap-2 pb-8">
+    <nav class="px-6 lg:px-32 py-4 bg-green-50 flex items-center justify-between gap-2 pb-8">
       <button class="lexend bg-[#B4F461] btn bg-btn-bg font-bold "
         onclick="window.location.href='blog.html';">Blog</button>
       <div class="flex gap-4 justify-center items-center">
@@ -36,7 +36,7 @@
       </div>
     </nav>
 
-    <div class="flex justify-center items-center gap-6 lg:mt-10 mt-6 mb-2 lg:mb-4 ">
+    <div class="flex justify-center items-center gap-6 lg:mt-10 mt-6 mb-2  pb-6">
       <button id="show-donation-cart" class="btn bg-btn-bg px-8 py-4">Donation</button>
       <button id="show-history-cart" class="btn px-8 py-4">History</button>
     </div>
@@ -46,9 +46,9 @@
     <section id="donateCartSection" class="flex flex-col gap-8">
 
       <!-- Noakhali Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-2 rounded-2xl">
+      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
-        <img class="max-h-[350px]" src="./assets/noakhali.png" alt="">
+        <img class="lg:w-1/2" src="./assets/noakhali.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
@@ -60,17 +60,17 @@
             help provide essential supplies and to those affected by this disaster. Every contribution, big or small,
             makes difference. </p>
           <!-- input amount -->
-          <input class="border-2 rounded-lg h-10 p-2" name="amount" id="inputDonationNoakhali"
+          <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationNoakhali"
             placeholder="Write Donation Amount" required>
           <!-- donate button -->
-          <button id="donateBtnNoakhali" class="btn py-4 bg-btn-bg w-full ">Donate Now</button>
+          <button id="donateBtnNoakhali" class="btn py-4 bg-btn-bg w-full bg-[#B4F461] ">Donate Now</button>
         </div>
       </div>
 
       <!-- Feni Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-2 rounded-2xl">
+      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
-        <img class="max-h-[350px]" src="./assets/feni.png" alt="">
+        <img class="lg:w-1/2" src="./assets/feni.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
@@ -83,17 +83,17 @@
             those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the
             aftermath of this disaster. </p>
           <!-- input amount -->
-          <input class="border-2 rounded-lg h-10 p-2" name="amount" id="inputDonationFeni"
+          <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationFeni"
             placeholder="Write Donation Amount" required>
           <!-- donate button -->
-          <button id="donateBtnFeni" class="btn py-4 bg-btn-bg w-full">Donate Now</button>
+          <button id="donateBtnFeni" class="btn py-4 bg-btn-bg w-full bg-[#B4F461]">Donate Now</button>
         </div>
       </div>
 
       <!-- Quota Movement Cart -->
-      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-2 rounded-2xl">
+      <div class="cart flex flex-col lg:flex-row  p-8 gap-8 justify-center items-center border-1 border-gray-400 rounded-2xl">
         <!-- image -->
-        <img class="max-h-[350px]" src="./assets/quota-protest.png" alt="">
+        <img class="lg:w-1/2" src="./assets/quota-protest.png" alt="">
         <div class="flex flex-col gap-4 lg:w-1/2">
           <div class="flex gap-2 p-2 bg-gray-100 justify-center items-center w-32 rounded-xl">
             <img src="./assets/coin.png" alt="">
@@ -106,17 +106,17 @@
             affected. By contributing, you help ensure that injured individuals receive the care and support they need
             during this challenging time. </p>
           <!-- input amount -->
-          <input class="border-2 rounded-lg h-10 p-2" name="amount" id="inputDonationQm"
+          <input class="border-1 border-gray-400 rounded-lg h-10 p-2" name="amount" id="inputDonationQm"
             placeholder="Write Donation Amount" required>
           <!-- donate button -->
-          <button id="donateBtnQm" class="btn py-4 bg-btn-bg w-full">Donate Now</button>
+          <button id="donateBtnQm" class="btn py-4 bg-btn-bg w-full bg-[#B4F461]">Donate Now</button>
         </div>
       </div>
     </section>
    
   </main>
  <Footer>
-      <div class="px-6 lg:px-32 py-4 bg-orange-50 items-center flex justify-between h-16 mt-10">
+      <div class="px-6 lg:px-32 py-4 bg-green-50 items-center flex justify-between h-16 mt-10">
       </div>
     </Footer>
 
